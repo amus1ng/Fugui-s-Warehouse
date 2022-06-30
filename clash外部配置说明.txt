@@ -1,0 +1,26 @@
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Domain.list
+
+ruleset=Hong Kong,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
+ruleset 就字面翻译 设置一条规则  ruleset=Hong Kong 就是设置一条给Hong Kong策略组的规则 然后加一个,后面接一个你要引用的规则列表这就是你需要配置的规则部分
+custom_proxy_group=Proxy`select`[]Japan`[]Taiwan`[]HongKong`[]Singapore`[]United States`[]DIRECT
+custom_proxy_group=Proxy 就是建立一个名字叫Proxy的策略组，一个`，select 代表的是这个策略组是可以选择节点的，select可以换成 urltest 和 fallback，urltest就是自动选择最优节点，fallback是按顺序使用 当目前的节点不可用是会测试下一个节点 直到找到可用节点这部份结束之后再来一个`。[]Japan 这串就是引用另一个策略组，每个引用策略组中间需要用`符号隔开 最后一个结束的不用
+
+custom_proxy_group=Texonin Japan`fallback`(^(?!.*中继).*(日))`http://cp.cloudflare.com/generate_204`300
+这句是不引用策略组 直接使用节点的，(^(?!.*中继).*(日))，这部分是对订阅的节点正则筛选 这个正则表达式意思 我要含“日”这个字不含“中继”这个词的 因为这条是fallback策略组 它需要测试节点 所以最后一段 http://cp.cloudflare.com/generate_204`300 是给他一个测试的url `300是测试容差还是间隔我忘了就直接这么写吧，URLtest的策略组后面也要跟一个url给他测试 如果是select策略组不需要测试 就可以直接
+
+custom_proxy_group=Texonin Japan`select`.*  .* 就是列出全部节点 `[]TEXON`.*`  []TEXON 引用TEXON策略组
+整个ini文件开头
+[custom]
+结尾
+enable_rule_generator=true
+overwrite_original_rules=true
+
+ruleset=TEXON,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list
+ruleset=TEXON,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_Domain.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=TEXON,[]FINAL
+
+保存 查看源码 复制源码链接到
+https://www.urlencoder.org/
+这个网站转码 然后 复制订阅链接 在 sub.texon.io里面转换成clash形式 在转换后的链接中找到&insert=false 在他后面加&config=你转码后的ini链接 然后全部复制在clash里面下载订阅
