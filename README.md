@@ -1,4 +1,4 @@
-# Fugui-s-Warehouse
+# 使用方法：
 
 1.点击库中的QuantumultX.conf文件，点击raw获取真实地址，复制地址备用
 
