@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-http-response ^https:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios_v script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wzbz.js, timeout=10, requires-body = true, tag = wzbz, enable=true
+http-response ^https:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios_v script-path=https://raw.githubusercontent.com/amus1ng/Fugui-s-Warehouse/main/loon/wzbz.js, timeout=10, requires-body = true, tag = wzbz, enable=true
 
 [mitm] 
 
