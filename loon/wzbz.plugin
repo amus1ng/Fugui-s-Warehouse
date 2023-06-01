@@ -1,6 +1,7 @@
 #!name=问真八字
 #!desc=问真八字会员解锁
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/caiyun.png
+#!icon=http://www.iwzbz.com/_static/images/logo_wenzhen.png
+
 [Script]
 http-response ^https:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios_v script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wzbz.js, requires-body=true, timeout=10, tag=wzbz
 
