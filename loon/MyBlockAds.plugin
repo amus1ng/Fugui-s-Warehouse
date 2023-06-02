@@ -1,7 +1,7 @@
 #!name = MyBlockAds
 #!desc = 一些常用的重写
 
-[URL Rewrite]
+[Rewrite]
 # 58同城 //*.58cdn.com.cn, app.58.com, pic?.ajkimg.com
 ^https:\/\/app\.58\.com\/api\/home\/(advertising|appadv) reject
 ^https:\/\/app\.58\.com\/api\/home\/invite\/popupAdv reject
