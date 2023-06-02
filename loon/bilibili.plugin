@@ -1,5 +1,6 @@
 #!name = 哔哩哔哩
 #!desc = 没有广告的哔哩哔哩更值得干杯
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Bilibili.png
 
 [Script]
 # Proto 动态广告,后台播放限制,播放页广告 //app.bilibili.com
