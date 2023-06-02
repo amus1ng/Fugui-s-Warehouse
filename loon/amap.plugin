@@ -4,7 +4,7 @@
 
 [Rewrite]
 # 此条可以屏蔽首次进入的天气动效图层  但是会导致足迹不显示地图数据
-;^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? reject-dict
+;^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? url reject-dict
 
 # 其他
 ;^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ AMapiPhone url-and-header reject-dict
