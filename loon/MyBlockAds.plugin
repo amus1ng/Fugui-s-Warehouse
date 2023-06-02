@@ -25,8 +25,12 @@ https:\/\/ehome\.esgcc\.com\.cn\/mobile\/$ reject
 ## 移除公众号中的推广内容 //mp.weixin.qq.com
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|relatedarticle)\? reject-dict
 
+# 京东 //api.m.jd.com
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js, requires-body=true, tag=京东
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts reject
+
 [Script]
 http-response ^https:\/\/api\.m\.mi\.com\/v1\/app\/start$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js, requires-body=true, tag=小米开屏广告
 
 [MITM]
-hostname = *.58cdn.com.cn, app.58.com, app-gw.csdn.net, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, ehome.esgcc.com.cn, mp.weixin.qq.com, api.m.mi.com
+hostname = *.58cdn.com.cn, app.58.com, app-gw.csdn.net, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, ehome.esgcc.com.cn, mp.weixin.qq.com, api.m.mi.com, api.m.jd.com
