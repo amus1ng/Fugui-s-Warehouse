@@ -1,0 +1,181 @@
+# Unbreak
+# > General
+HOST,app.adjust.com
+HOST,app.appsflyer.com
+HOST,bdtj.tagtic.cn
+# > Alibaba
+HOST,log.mmstat.com
+HOST,sycm.mmstat.com
+# > Google
+HOST-SUFFIX,blog.google // Google Blog
+HOST-SUFFIX,googletraveladservices.com // Google Flights
+HOST,clientservices.googleapis.com
+HOST,update.googleapis.com
+HOST,dl.google.com
+HOST,dl.l.google.com
+HOST,update.googleapis.com
+# >> Firebase Cloud Messaging
+HOST,mtalk.google.com
+HOST,alt1-mtalk.google.com
+HOST,alt2-mtalk.google.com
+HOST,alt3-mtalk.google.com
+HOST,alt4-mtalk.google.com
+HOST,alt5-mtalk.google.com
+HOST,alt6-mtalk.google.com
+HOST,alt7-mtalk.google.com
+HOST,alt8-mtalk.google.com
+# >> Paramount+
+# HOST,pubads.g.doubleclick.net
+# > Tencent
+HOST,fairplay.l.qq.com
+HOST,livew.l.qq.com
+HOST,vd.l.qq.com
+HOST,vi.l.qq.com
+# > Strava
+HOST,analytics.strava.com
+# > Umeng
+HOST,msg.umeng.com
+HOST,msg.umengcloud.com
+
+
+# > 苹果推送服务
+host-keyword, push.apple.com, direct
+# > 苹果时间同步
+host, time.apple.com, direct
+# > 苹果天气服务
+host-keyword, weather-edge.apple.com, direct
+host-keyword, weather-adge.apple.com, direct
+host-suffix, weather-data.apple.com, direct
+host-suffix, weather-map.apple.com, direct
+host-suffix, weather-analytics-events.apple.com, direct
+# > 苹果内购服务
+host-keyword, buy.itunes.apple.com, direct
+# > 苹果icloud
+host-keyword, icloud.com, direct
+# > 苹果输入法相关服务
+host-keyword, api.smoot.apple.com, direct
+host-keyword, api.smoot.apple.cn, direct
+# > 苹果iMessage服务
+host, init.ess.apple.com, direct
+# > 苹果其他服务
+host-keyword, ssl.apple.com, direct
+host-keyword, humb.apple.com, direct
+host, smp-device-content.apple.com, direct
+host-keyword, api-adservices.apple.com, direct
+host-keyword, ls.apple.com, direct
+host-keyword, gsa.apple.com, direct
+host-keyword, ess.apple.com, direct
+# > 其他分流修正
+host-keyword, anti-ad.net, direct
+host, ad.12306.cn, direct
+# > 携程
+host-keyword, aw-s.tripcdn.com, direct
+host-keyword, trip.com, direct
+
+# > Apple CDN
+HOST,aod.itunes.apple.com
+HOST,api.smoot.apple.cn
+HOST,appldnld.apple.com
+HOST,apptrailers.itunes.apple.com
+HOST,gs-loc-cn.apple.com
+HOST,iosapps.itunes.apple.com
+HOST,music.apple.com
+HOST,mvod.itunes.apple.com
+HOST,osxapps.itunes.apple.com
+HOST,supportdownload.apple.com
+HOST,swcdn.apple.com
+HOST,updates-http.cdn-apple.com
+HOST-SUFFIX,ls.apple.com
+HOST-SUFFIX,mzstatic.com
+
+# > Epic
+HOST-KEYWORD,epicgames
+
+# > Google
+HOST,safebrowsing.googleapis.com
+HOST-SUFFIX,dl.google.com
+
+# > Microsoft
+HOST-SUFFIX,msftconnecttest.com
+
+
+# > Steam
+HOST,cm.steampowered.com
+HOST,ol.epicgames.com
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamserver.net
+
+HOST-SUFFIX,steamchina.com
+
+HOST,csgo.wmsj.cn
+HOST,dota2.wmsj.cn
+HOST,wmsjsteam.com
+
+HOST,dl.steam.clngaa.com
+HOST,dl.steam.ksyna.com
+
+HOST,st.dl.bscstorage.net
+HOST,st.dl.eccdnx.com
+HOST,st.dl.pinyuncloud.com
+
+HOST,steampipe.steamcontent.tnkjmec.com
+
+HOST,steampowered.com.8686c.com
+HOST,steamstatic.com.8686c.com
+
+HOST,steambroadcast.akamaized.net
+HOST,steamcdn-a.akamaihd.net
+HOST,steamcommunity-a.akamaihd.net
+HOST,steamstore-a.akamaihd.net
+HOST,steamusercontent-a.akamaihd.net
+HOST,steamuserimages-a.akamaihd.net
+
+# > Tesla
+HOST,tesla-cdn.thron.cn
+HOST,tesla-cdn.thron.com
+HOST-SUFFIX,solarcity.com
+HOST-SUFFIX,tesla.cn
+HOST-SUFFIX,tesla.com
+HOST-SUFFIX,tesla.com.cn
+HOST-SUFFIX,teslamotors.cn
+HOST-SUFFIX,teslamotors.com
+HOST-SUFFIX,teslamotors.com.cn
+HOST-SUFFIX,ts.la
+
+# > WiFiman
+HOST-SUFFIX,app-measurement.com
+
+# > Xunlei
+HOST-SUFFIX,xunlei.com
+
+
+# > Private Tracker
+HOST-SUFFIX,audiences.me
+HOST-SUFFIX,awesome-hd.me
+HOST-SUFFIX,broadcasthe.net
+HOST-SUFFIX,chdbits.co
+HOST-SUFFIX,classix-unlimited.co.uk
+HOST-SUFFIX,dmhy.best
+HOST-SUFFIX,empornium.me
+HOST-SUFFIX,gazellegames.net
+HOST-SUFFIX,hdchina.org
+HOST-SUFFIX,hdsky.me
+HOST-SUFFIX,icetorrent.org
+HOST-SUFFIX,jpopsuki.eu
+HOST-SUFFIX,keepfrds.com
+HOST-SUFFIX,madsrevolution.net
+HOST-SUFFIX,m-team.cc
+HOST-SUFFIX,nanyangpt.com
+HOST-SUFFIX,ncore.cc
+HOST-SUFFIX,open.cd
+HOST-SUFFIX,ourbits.club
+HOST-SUFFIX,passthepopcorn.me
+HOST-SUFFIX,privatehd.to
+HOST-SUFFIX,redacted.ch
+HOST-SUFFIX,sandai.net
+HOST-SUFFIX,springsunday.net
+HOST-SUFFIX,tjupt.org
+HOST-SUFFIX,totheglory.im
+
+# > UBI
+HOST,uplaypc-s-ubisoft.cdn.ubi.com
