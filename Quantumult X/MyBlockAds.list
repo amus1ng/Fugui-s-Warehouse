@@ -209,13 +209,11 @@ HOST-SUFFIX,kgmobilestatbak.kugou.com, reject
 HOST-SUFFIX,mobilelog.kugou.com, reject
 
 # > 美团
-HOST, flowplus.meituan.net, reject
-HOST-SUFFIX, analytics.meituan.net, reject
-HOST-SUFFIX, meituan.xn--io0a7i, reject
-HOST-SUFFIX, meituan.yoga, reject
-HOST-SUFFIX, meituangov.cn, reject
-HOST-SUFFIX, report.meituan.com, reject
-HOST-SUFFIX, wmlog.meituan.com, reject
+HOST, al-log.d.meituan.net, REJECT
+HOST, babel-statistics-android.d.meituan.net, REJECT
+HOST, maplocatesdksnapshot.d.meituan.net, REJECT
+HOST, metrics-picture.d.meituan.net, REJECT
+HOST, route-stats.d.meituan.net, REJECT
 
 # > QQ音乐广告
 HOST,tmeadcomm.y.qq.com, reject
