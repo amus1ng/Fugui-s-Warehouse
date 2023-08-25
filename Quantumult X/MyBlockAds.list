@@ -32,11 +32,6 @@ IP-CIDR,180.76.76.200/32,reject
 host-keyword, p3-pack.byteimg.com, reject
 host-keyword, p6-pack.byteimg.com, reject
 
-# > 抖音
-host-keyword,bds.snssdk.com, reject
-host-keyword,p6-ad-sign.byteimg.com, reject
-host-keyword,p3.pstatp.com, reject
-
 # > 谷歌
 HOST-SUFFIX,google-analytics.com, reject
 HOST,safebrowsing.googleapis.com, reject
