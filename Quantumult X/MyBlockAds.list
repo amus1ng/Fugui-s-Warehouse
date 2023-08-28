@@ -1,6 +1,6 @@
 # > Apple
-HOST, api-adservices.apple.com, reject
-HOST-SUFFIX, iadsdk.apple.com, reject
+HOST,api-adservices.apple.com, reject
+HOST-SUFFIX,iadsdk.apple.com, reject
 HOST-SUFFIX,ads.internal.unity3d.com
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com
 HOST-SUFFIX,unityads.unity3d.com
@@ -21,8 +21,13 @@ HOST,mobads.baidu.com
 HOST,mobads-logs.baidu.com
 HOST,nadvideo2.baidu.com
 HOST,nsclick.baidu.com
+
 # > 百度贴吧 屏蔽域名dns查询
 IP-CIDR,180.76.76.200/32,reject
+
+# > 哔哩哔哩
+HOST, mall.bilibili.com, REJECT
+HOST, passport.bilibili.com, REJECT
 
 # > 懂车帝
 host-keyword, p3-pack.byteimg.com, reject
@@ -129,42 +134,3 @@ HOST, open.e.kuaishou.com, REJECT
 
 # > 网上国网
 HOST, h5-api.feiersmart.com, REJECT
-
-# 字节跳动
-HOST, ad.zijieapi.com, REJECT
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-
-# > MGTV
-HOST-SUFFIX,ads-api.videojj.com
-HOST-SUFFIX,cdn.cmop.mgtv.com
-HOST-SUFFIX,click.hunantv.com
-HOST-SUFFIX,cmop.mgtv.com
-HOST-SUFFIX,cytron.videojj.com
-HOST-SUFFIX,cytroncdn.videojj.com
-HOST-SUFFIX,da.hunantv.com
-HOST-SUFFIX,da.mgtv.com
-HOST-SUFFIX,imgaliyun.da.mgtv.com
-HOST-SUFFIX,imgaliyun.res.mgtv.com
-HOST-SUFFIX,m2.da.mgtv.com
-HOST-SUFFIX,me.videojj.com
-HOST-SUFFIX,mobaliyun.res.mgtv.com
-HOST-SUFFIX,mobile.da.mgtv.com
-HOST-SUFFIX,mobile2.da.mgtv.com
-HOST-SUFFIX,mp4.res.hunantv.com
-HOST-SUFFIX,pc.da.mgtv.com
-HOST-SUFFIX,pc1.da.mgtv.com
-HOST-SUFFIX,pcvideoaliyun.titan.mgtv.com
-HOST-SUFFIX,pcvideoyd.titan.mgtv.com
-HOST-SUFFIX,pcweb.v1.mgtv.com
-HOST-SUFFIX,plat.videojj.com
-HOST-SUFFIX,py.da.mgtv.com
-HOST-SUFFIX,res.hunantv.com
-HOST-SUFFIX,store.videojj.com
-HOST-SUFFIX,v2.da.mgtv.com
-HOST-SUFFIX,va.videojj.com
-HOST-SUFFIX,web.da.mgtv.com
-HOST-SUFFIX,x.da.hunantv.com
-HOST-SUFFIX,x.da.mgtv.com
-HOST-SUFFIX,x1.da.hunantv.com
-HOST-SUFFIX,y.da.hunantv.com
-HOST-SUFFIX,y.da.mgtv.com
